@@ -132,7 +132,7 @@ document.querySelectorAll('td.date-picker > span').forEach(element => {
     day = "0" + day;
   }
 
-  element.innerHTML = '<a style="text-decoration: none;" href="1ayushjswl.github.io/problems/' + year + '-' + month + '-' + day + '">' + element.textContent + '</a> '
+  element.innerHTML = '<a style="text-decoration: none;" href="https://1ayushjswl.github.io/problems/' + year + '-' + month + '-' + day + '">' + element.textContent + '</a> '
 })
 
 }
